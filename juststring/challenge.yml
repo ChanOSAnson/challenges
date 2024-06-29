@@ -1,0 +1,24 @@
+# Required sections
+name: "Just String"
+author: "ansonnnnn"
+category: pwn
+description: Hello World!!
+value: 50
+type: standard
+
+image: ./deploy
+protocol: tcp
+#host: null
+#connection_info: 
+
+attempts: 5
+
+flags:
+    - CZ4067{h3ll0_w0rld_s33ms_t0ugh}
+topics:
+    - Integer Underflow, Buffer Overflow
+files:
+    - dist/dist.zip
+state: visible
+
+version: "0.1"

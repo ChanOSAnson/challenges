@@ -1,0 +1,24 @@
+overall:
+  test: test
+  domain: http://localhost
+  quick_fail: 1 # if 0, all challenges will be run and tested. If 1, abort CI when the first challenge build/test fails
+challenges:
+  pwn:
+    - image_name: juststring
+      folder: juststring
+      domain: 127.0.0.1
+      port: 1337
+      exploit_need_manual: 0
+      run_with_privilege: 1
+  web:
+    - image_name: gitgo
+      folder: gitgo
+      port: 8080
+      exploit_need_manual: 1
+  static:
+    - folder: xooroed
+      mode: static    # Static challenges require *no* remote connection to find the flag
+    - folder: well_documented
+      mode: static
+    - folder: unknown_soldier
+      mode: static

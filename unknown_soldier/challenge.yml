@@ -1,0 +1,23 @@
+# Required sections
+name: "Unknown Soldier"
+author: "ansonnnnn"
+category: steganography
+description: Our unknown soldier from across the border has shared a cryptic message, can you figure out what is trying to say.
+value: 50
+type: standard
+
+image: null
+protocol: null
+host: null
+
+attempts: 5
+
+flags:
+    - CZ4067{W4rn3d_4b0ut_futur3_1nv4s10n}
+topics:
+    - steganography
+files:
+    - dist/message.txt
+state: visible
+
+version: "0.1"

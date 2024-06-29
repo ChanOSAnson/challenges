@@ -1,0 +1,22 @@
+name: "Gitgo"
+author: "ansonnnnn"
+category: web
+description: Just an under construction website. Nothing fancy
+value: 50
+type: standard
+
+image: ./deploy
+protocol: http
+# host: ssh://ec2-user@ec2-54-151-167-56.ap-southeast-1.compute.amazonaws.com
+
+# Optional settings: Can be removed if unused
+#connection_info: http://challenge.cz4067-ctf-trial.site 3206
+
+attempts: 5
+flags:
+    - CZ4067{s3cr3t_l0gs_4r3_us3ful}
+topics:
+    - Directiry Traversal, Git Logs
+state: visible
+
+version: "0.1"

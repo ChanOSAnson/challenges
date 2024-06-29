@@ -1,0 +1,24 @@
+# Required sections
+name: "xoored"
+author: "ansonnnnn"
+category: Cryptography
+description: You shout xoored, I will should boored. Mix our voices, the portal to secret universe will open.
+value: 50
+type: standard
+
+image: null
+protocol: null
+host: null
+
+attempts: 5
+
+flags:
+    - CZ4067{sup3r_crypt0_h1ts_b4ck}
+topics:
+    - cryptography
+    - XOR
+files:
+    - dist/encrypted.txt
+state: visible
+
+version: "0.1"
